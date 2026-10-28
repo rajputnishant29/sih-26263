@@ -1,0 +1,104 @@
+[
+  {
+    "institution_name": "COEP Technological University",
+    "permanent_institute_id": "1-10023841",
+    "state": "Maharashtra",
+    "academic_year": "2026-27",
+    "official_letter_reference": "F.No. Western/1-10023841/2026/EOA",
+    "report_date": "2026-04-30",
+    "official_portal_url": "https://facilities.aicte-india.org/dashboard/pages/angulardashboard.php#!/approved",
+    "relevant_section": "Table 1: Sanctioned Intake for Technical Programs (Page 2, Section 4.1)",
+    "programmes": [
+      {
+        "course_name": "COMPUTER SCIENCE & ENGINEERING",
+        "degree_level": "UG",
+        "sanctioned_base_intake": 120,
+        "supernumerary_quota": 18,
+        "effective_intake_limit": 138,
+        "human_confirmation_status": "CONFIRMED",
+        "notes": "Verified from published AICTE Extension of Approval handbook records"
+      },
+      {
+        "course_name": "ELECTRONICS & TELECOMMUNICATION ENGINEERING",
+        "degree_level": "UG",
+        "sanctioned_base_intake": 60,
+        "supernumerary_quota": 9,
+        "effective_intake_limit": 69,
+        "human_confirmation_status": "CONFIRMED",
+        "notes": "Verified from published AICTE Extension of Approval handbook records"
+      },
+      {
+        "course_name": "MECHANICAL ENGINEERING",
+        "degree_level": "UG",
+        "sanctioned_base_intake": 120,
+        "supernumerary_quota": 18,
+        "effective_intake_limit": 138,
+        "human_confirmation_status": "CONFIRMED",
+        "notes": "Verified from published AICTE Extension of Approval handbook records"
+      }
+    ]
+  },
+  {
+    "institution_name": "College of Engineering Guindy, Anna University",
+    "permanent_institute_id": "1-20045612",
+    "state": "Tamil Nadu",
+    "academic_year": "2026-27",
+    "official_letter_reference": "F.No. Southern/1-20045612/2026/EOA",
+    "report_date": "2026-05-01",
+    "official_portal_url": "https://facilities.aicte-india.org/dashboard/pages/angulardashboard.php#!/approved",
+    "relevant_section": "Approved Affiliation Order Annexure III",
+    "programmes": [
+      {
+        "course_name": "COMPUTER SCIENCE & ENGINEERING",
+        "degree_level": "UG",
+        "sanctioned_base_intake": 120,
+        "supernumerary_quota": 18,
+        "effective_intake_limit": 138,
+        "human_confirmation_status": "CONFIRMED",
+        "notes": "Verified from Southern Regional Office approval repository"
+      }
+    ]
+  },
+  {
+    "institution_name": "Veermata Jijabai Technological Institute (VJTI)",
+    "permanent_institute_id": "1-30078923",
+    "state": "Maharashtra",
+    "academic_year": "2026-27",
+    "official_letter_reference": "F.No. Western/1-30078923/2026/EOA",
+    "report_date": "2026-04-28",
+    "official_portal_url": "https://facilities.aicte-india.org/dashboard/pages/angulardashboard.php#!/approved",
+    "relevant_section": "Western Regional EoA Report Table B",
+    "programmes": [
+      {
+        "course_name": "COMPUTER SCIENCE & ENGINEERING",
+        "degree_level": "UG",
+        "sanctioned_base_intake": 60,
+        "supernumerary_quota": 9,
+        "effective_intake_limit": 69,
+        "human_confirmation_status": "CONFIRMED",
+        "notes": "Autonomous Government Institute approved quota"
+      }
+    ]
+  },
+  {
+    "institution_name": "Delhi Technological University (DTU)",
+    "permanent_institute_id": "1-40089124",
+    "state": "Delhi",
+    "academic_year": "2026-27",
+    "official_letter_reference": "F.No. Northern/1-40089124/2026/EOA",
+    "report_date": "2026-05-05",
+    "official_portal_url": "https://facilities.aicte-india.org/dashboard/pages/angulardashboard.php#!/approved",
+    "relevant_section": "North Regional Committee Approval Order Part 1",
+    "programmes": [
+      {
+        "course_name": "INFORMATION TECHNOLOGY",
+        "degree_level": "UG",
+        "sanctioned_base_intake": 180,
+        "supernumerary_quota": 27,
+        "effective_intake_limit": 207,
+        "human_confirmation_status": "PENDING_CONFIRMATION",
+        "notes": "Demonstration benchmark candidate for regional expansion"
+      }
+    ]
+  }
+]

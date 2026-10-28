@@ -1,0 +1,54 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:16-alpine
+    container_name: edutrace_postgres
+    restart: always
+    environment:
+      POSTGRES_USER: smartshutter
+      POSTGRES_PASSWORD: smartshutter_local_dev
+      POSTGRES_DB: edutrace
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U smartshutter -d edutrace"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    container_name: edutrace_backend
+    restart: always
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      DATABASE_URL: postgresql+psycopg2://smartshutter:smartshutter_local_dev@db:5432/edutrace
+      HMAC_SECRET_KEY: edutrace_sih2026_super_secure_identity_hmac_secret_key
+      JWT_SECRET_KEY: edutrace_sih2026_super_secure_jwt_secret_key_access_token
+      ENVIRONMENT: development
+      DEBUG: "true"
+      ALLOW_DEMO_ROLE_SWITCHER: "true"
+      IS_SYNTHETIC_DATA: "true"
+    ports:
+      - "8000:8000"
+
+  frontend:
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
+    container_name: edutrace_frontend
+    restart: always
+    depends_on:
+      - backend
+    ports:
+      - "5173:80"
+
+volumes:
+  postgres_data:
