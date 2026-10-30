@@ -4,7 +4,7 @@
 **Project:** APAAR ID-Based Student Data Management and Verification Platform  
 **Target Organization:** AICTE (All India Council for Technical Education)  
 **Document Purpose:** Detailed technical flow of the entire solution across Frontend, Backend, and their integrated real-time interaction.  
-**Document Version:** 1.0.0 (SIH 2026 Production-Grade Prototype)
+<!-- **Document Version:** 1.0.0 (SIH 2026 Production-Grade Prototype) -->
 
 ---
 
